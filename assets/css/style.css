@@ -586,24 +586,31 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about  {
+  background-color: #212121;
+}
 
+.about p  {
+  background-color: #212121;
+}
 .about .content {
-  background-color: #f6f9ff;
-  padding: 40px;
+  color: #f2f2f3;
 }
 
 .about h3 {
   font-size: 14px;
   font-weight: 700;
-  color: #4154f1;
+  color: #f2f2f3;
   text-transform: uppercase;
 }
 
 .about h2 {
+  color: #f2f2f3;
   font-family: "pf-fuel-grime", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 50px
+  
 }
 
 .about p {
@@ -622,6 +629,7 @@ section {
 }
 
 .about .btn-read-more span {
+  color: #f2f2f3;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   font-size: 16px;
@@ -643,7 +651,10 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background-image: url(file:///C:/Users/lufat/Downloads/FlexStart%20(2)/FlexStart/assets/img/cta-bg.png);
+  background-color: #7c57fc;
+}
+
+.cta {
   background-size: cover;
   padding: 80px 0;
 }
@@ -658,7 +669,7 @@ section {
 }
 
 .cta p {
-  text-align:center
+  align:center
   color: #f2f2f3;
 }
 
@@ -697,34 +708,61 @@ section {
 /*--------------------------------------------------------------
 # Values
 --------------------------------------------------------------*/
-.values .box {
-  padding: 30px;
-  box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
-  text-align: center;
-  transition: 0.3s;
-  height: 100%;
-}
+.values {
+  background-color: #422b94;
+  }
 
-.values .box img {
-  padding: 30px 50px;
-  transition: 0.5s;
-  transform: scale(1.1);
-}
-
-.values .box h3 {
-  font-size: 24px;
-  color: #012970;
-  font-weight: 700;
-  margin-bottom: 18px;
-}
-
-.values .box:hover {
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-}
-
-.values .box:hover img {
-  transform: scale(1);
-}
+  .values h2 {
+    font-family: "pf-fuel-grime", sans-serif;
+    font-weight: 400;
+    font-size: 80px
+    font-style: normal;
+    color: #f2f2f3
+    
+    }
+  
+    .values p {
+      font-family: "pf-fuel-grime", sans-serif;
+      font-weight: 400;
+      font-size: 60px
+      font-style: normal;
+      color: #f2f2f3
+      
+      }
+  
+  .values .box {
+    padding: 30px;
+   /* box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);*/
+    text-align: center;
+    transition: 0.3s;
+    height: 100%;
+  }
+  
+  .values .box img {
+    padding: 30px 50px;
+    transition: 0.5s;
+    transform: scale(1.1);
+  }
+  
+  .values .box h3 {
+    font-family: "pf-fuel-grime", sans-serif;
+    font-weight: 400;
+    font-size: 60px
+    font-style: normal;
+    color: #f2f2f3;
+    margin-bottom: 18px;
+  }
+  .values .box p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#f2f2f3
+  }
+  
+  .values .box:hover {
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  }
+  
 
 /*--------------------------------------------------------------
 # Counts
@@ -1507,8 +1545,9 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+
 .team {
-  background: #fff;
+  background: #f2f2f3;
   padding: 60px 0;
 }
 
@@ -1516,8 +1555,7 @@ section {
   overflow: hidden;
   text-align: center;
   border-radius: 5px;
-  background: #fff;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  background: #f2f2f3;
   transition: 0.3s;
 }
 
@@ -1533,7 +1571,6 @@ section {
   bottom: 0;
   height: 100%;
   width: 100%;
-  background: url(../img/team-shape.svg) no-repeat center bottom;
   background-size: contain;
   z-index: 1;
 }
@@ -1550,8 +1587,12 @@ section {
 }
 
 .team .member .social a {
+  font-family: "pf-fuel-grime", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px
   transition: color 0.3s;
-  color: rgba(1, 41, 112, 0.5);
+  color: #7C57FC;
   margin: 15px 12px;
   display: block;
   line-height: 0;
@@ -1571,10 +1612,11 @@ section {
 }
 
 .team .member .member-info h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 20px;
-  color: #012970;
+  font-family: "pf-fuel-grime", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px
+  color: #7C57FC;
 }
 
 .team .member .member-info span {
@@ -1594,7 +1636,6 @@ section {
 
 .team .member:hover {
   transform: scale(1.08);
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
 }
 
 .team .member:hover .social {
