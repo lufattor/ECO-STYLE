@@ -866,6 +866,16 @@ section {
   font-size: 60px
 }
 
+
+.features h4 {
+  font-family: "pf-fuel-grime", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color:#212121
+}
+
+
 .features .feature-box {
   padding: 24px 20px;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
@@ -970,10 +980,10 @@ section {
 }
 
 .features .feature-icons .content .icon-box h4 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
   margin: 0 0 10px 0;
-  color: #012970;
+  color: #442c9a;
 }
 
 .features .feature-icons .content .icon-box i {
