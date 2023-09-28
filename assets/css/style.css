@@ -78,12 +78,14 @@ section {
 }
 
 .section-header p {
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   margin: 10px 0 0 0;
   padding: 0;
   font-size: 38px;
   line-height: 42px;
-  font-weight: 700;
-  color: #012970;
+  color: #212121;
 }
 
 @media (max-width: 768px) {
@@ -154,21 +156,21 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #4154f1;
+  background: #2e2e2e;
   width: 40px;
   height: 40px;
-  border-radius: 4px;
+  border-radius: 4px; color: #CCFD56;
   transition: all 0.4s;
 }
 
 .back-to-top i {
   font-size: 24px;
-  color: #fff;
+  color: #CCFD56;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #6776f4;
+  background: #CCFD56;
   color: #fff;
 }
 
@@ -668,46 +670,42 @@ section {
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
-.cta {
-  background-color: #7c57fc;
+.cta .section {
+  background: url("../img/cta-bg.png") center;
+  background-size: cover;
+  padding: 80px 0;
 }
 
 .cta {
   background-size: cover;
   padding: 80px 0;
-}
-
-.cta h3 {
-  align:center
-  color: #f2f2f3;
   font-family: "pf-fuel-grime", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 60px
-}
-
-.cta p {
-  align:center
+  font-size: 60px;
+  padding-top: 20px;
+  align:center;
   color: #f2f2f3;
 }
 
-.cta .cta-btn {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 15px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 30px;
-  border-radius: 4px;
-  transition: 0.5s;
-  margin: 10px;
-  color: #fff;
-  background: #009cea;
+.cta h1 {  
+  font-family: "pf-fuel-grime", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  padding-top: 20px;
+  align:center;
+  color: #f2f2f3;
 }
 
-.cta .cta-btn:hover {
-  background: #008bd1;
+.section-header p {
+  justify-content: center;
+  align:center;
+  color: #f2f2f3;
+  font-size: 23px;
+  font-style: normal;
 }
+
 
 @media (min-width: 1024px) {
   .cta {
@@ -715,13 +713,6 @@ section {
   }
 }
 
-@media (min-width: 769px) {
-  .cta .cta-btn-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-}
 
 /*--------------------------------------------------------------
 # Values
@@ -2486,26 +2477,45 @@ font-style: normal;
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-.footer {
-  background: #f6f9ff;
-  padding: 0 0 30px 0;
+.footer p {
+   padding: 0 0 10px 0;
   font-size: 14px;
+  color: #f2f2f3;
 }
+
 
 .footer .footer-newsletter {
   padding: 50px 0;
-  background: #f6f9ff;
-  border-top: 1px solid #e1ecff;
+  background: #7c57fc;
+  border-top: 2px solid #212121;
 }
 
-.footer .footer-newsletter h4 {
-  font-size: 24px;
+.footer .footer-newsletter h1 {
+  font-family: "pf-fuel-grime", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
   margin: 0 0 10px 0;
   padding: 0;
   line-height: 1;
-  font-weight: 700;
-  color: #012970;
+  color: #f2f2f3;
 }
+
+.footer h1{
+  font-family: "pf-fuel-grime", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  line-height: 1;
+  color: #f2f2f3;
+}
+
+.footer h1 :hover{
+  color: #CCFD56;
+}
+
 
 .footer .footer-newsletter form {
   margin-top: 20px;
@@ -2532,18 +2542,19 @@ font-style: normal;
   font-size: 16px;
   padding: 0 30px;
   margin: 3px;
-  background: #4154f1;
-  color: #fff;
+  background: #7C57FC;
+  color: #CCFD56;
   transition: 0.3s;
-  border-radius: 4px;
+  border-radius: 4px; color: #CCFD56;
 }
 
 .footer .footer-newsletter form input[type=submit]:hover {
-  background: #5969f3;
+  background: #CCFD56;
+  color: #212121;
 }
 
 .footer .footer-top {
-  background: white url(../img/footer-bg.png) no-repeat right top;
+  background-color: #212121;
   background-size: contain;
   border-top: 1px solid #e1ecff;
   border-bottom: 1px solid #e1ecff;
@@ -2574,7 +2585,7 @@ font-style: normal;
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #012970;
+  color: #f2f2f3;
   font-family: "Nunito", sans-serif;
   margin-top: 3px;
 }
@@ -2589,20 +2600,20 @@ font-style: normal;
 .footer .footer-top .social-links a {
   font-size: 20px;
   display: inline-block;
-  color: rgba(1, 41, 112, 0.5);
+  color: f2f2f3;
   line-height: 0;
   margin-right: 10px;
   transition: 0.3s;
 }
 
 .footer .footer-top .social-links a:hover {
-  color: #012970;
+  color: #CCFD56;
 }
 
 .footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #012970;
+  color: #CCFD56;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
@@ -2636,14 +2647,14 @@ font-style: normal;
 }
 
 .footer .footer-top .footer-links ul a {
-  color: #013289;
+  color: #f2f2f3;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 
 .footer .footer-top .footer-links ul a:hover {
-  color: #4154f1;
+  color: #CCFD56;
 }
 
 .footer .footer-top .footer-contact p {
@@ -2660,5 +2671,5 @@ font-style: normal;
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
-  color: #012970;
+  color: #212121;
 }
