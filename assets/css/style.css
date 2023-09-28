@@ -9,6 +9,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+
 :root {
   scroll-behavior: smooth;
 }
@@ -45,6 +47,7 @@ h5,
 h6 {
   font-family: "Nunito", sans-serif;
 }
+
 
 /*--------------------------------------------------------------
 # Sections
@@ -113,6 +116,7 @@ section {
 }
 
 .breadcrumbs h2 {
+  font-family: "poppins"; sans-serif;
   font-size: 28px;
   font-weight: 500;
 }
@@ -392,7 +396,7 @@ section {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #012970;
+  color: #212121;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -421,7 +425,7 @@ section {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(1, 22, 61, 0.9);
+  background:#7C57FC;
   transition: 0.3s;
 }
 
@@ -652,16 +656,37 @@ section {
   }
 
   .hero h1 {
-    font-size: 32px;
+    font-size: 65px;
   }
 
+  .hero2 h1 {
+    font-size: 65px;
+  }
+
+  .hero2 .hero-img img {
+    background: url(../img/hero-bg2-mobile.png) top center no-repeat;
+    width: auto;
+  }
+
+  .hero2 h2 {
+    font-size: 18px;
+  }
+
+
   .hero h2 {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .hero .hero-img img {
     width: 100%;
   }
+
+
+
+}
+
+.hero-mobile h1 {
+font-size: 40px;
 }
 
 /*--------------------------------------------------------------
