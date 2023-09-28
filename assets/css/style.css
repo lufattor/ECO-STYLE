@@ -584,6 +584,16 @@ section {
 
 }
 
+
+.hero2 h1 {
+  color: #f2f2f3;
+  font-family: "pf-fuel-grime", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px
+
+}
+
 .hero h2 {
   color: #f2f2f3;
   margin: 15px 0 0 0;
@@ -655,7 +665,8 @@ section {
   .hero2 {
    text-align: center;
    padding-top: 20px;
-   margin-top: 0px
+   margin-top: 0px;
+   color:#212121;
   }
 
   .hero2 .hero-img {
@@ -677,7 +688,11 @@ section {
   }
 
   .hero2 h1 {
+    font-family: "pf-fuel-grime", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 65px;
+    color: #f2f2f3;
   }
 
  
@@ -709,8 +724,8 @@ section {
   background: url(../img/hero-bg2.png) top center no-repeat; /* Fondo de imagen para escritorio */
   background-size: cover;
   background-position: center;
-  color: white; /* Color de texto para asegurarse de que sea legible en la imagen de fondo */
-  padding: 20px;
+  color: #f2f2f3; /* Color de texto para asegurarse de que sea legible en la imagen de fondo */
+  padding-top: 0px;
 }
 
 /* Consulta de medios para pantallas de 768px o menos */
