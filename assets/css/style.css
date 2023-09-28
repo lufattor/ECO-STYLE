@@ -923,6 +923,7 @@ section {
 @media (min-width: 1024px) {
   .cta {
     background-attachment: fixed;
+    height: auto;
   }
 }
 
