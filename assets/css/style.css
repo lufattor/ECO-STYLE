@@ -594,10 +594,11 @@ section {
 
 }
 
-.hero h2 {
+.hero h2 { 
+  font-size: 26px;
   color: #f2f2f3;
   margin: 15px 0 0 0;
-  font-size: 26px;
+
 }
 
 .hero .btn-get-started {
@@ -643,7 +644,7 @@ section {
     background-attachment: fixed;
   }
   .hero h2{
-    font-size: 14px
+    font-size: 20px
   }
 }
 
@@ -718,7 +719,7 @@ section {
  
 
   .hero2 h2 {
-    font-size: 18px;
+    font-size: 20px;
   }
 
 
@@ -735,6 +736,9 @@ section {
     font-size: 40px;
     }
     
+  .hero-mobile h2 {
+   font-size: 20px;
+  }
 
 }
 
@@ -927,15 +931,36 @@ section {
 
 @media (min-width: 1024px) {
   .cta {
+    font-size:20px;
     background-attachment: fixed;
     height: auto;
     width: 1000px;
   }
   .cta h1{
-    font-size: 20px;
   }
-  
   }
+
+
+  /* Estilos para dispositivos de escritorio */
+.cta {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  .cta {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+}
+
 
 
 
