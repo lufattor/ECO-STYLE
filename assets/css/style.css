@@ -642,6 +642,9 @@ section {
   .hero {
     background-attachment: fixed;
   }
+  .hero h2{
+    font-size: 14px
+  }
 }
 
 @media (max-width: 991px) {
@@ -688,6 +691,8 @@ section {
 @media (max-width: 768px) {
   .hero {
     text-align: center;
+    height: 1200px;
+
   }
 
   .hero h1 {
@@ -924,8 +929,14 @@ section {
   .cta {
     background-attachment: fixed;
     height: auto;
+    width: 1000px;
   }
-}
+  .cta h1{
+    font-size: 20px;
+  }
+  
+  }
+
 
 
 /*--------------------------------------------------------------
