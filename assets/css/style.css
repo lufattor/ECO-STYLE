@@ -14,7 +14,7 @@
 }
 
 body {
-  font-family: "open sans", sans-serif;
+  font-family: "poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -35,6 +35,8 @@ h1, {
   font-style: normal;
   font-size: 100px
 }
+
+
 
 h2,
 h3,
@@ -96,10 +98,10 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #212121;
+  background: #7C57FC;
   min-height: 40px;
   margin-top: 82px;
-  color: #f2f2f3;
+  color: #212121;
 }
 
 @media (max-width: 992px) {
@@ -123,7 +125,7 @@ section {
 }
 
 .breadcrumbs ol a {
-  color: #fff;
+  color: #CCFD56;
   transition: 0.3s;
 }
 
@@ -138,7 +140,7 @@ section {
 .breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #8894f6;
+  color: #CCFD56;
   content: "/";
 }
 
@@ -509,7 +511,7 @@ section {
   font-weight: 400;
   font-style: normal;
   font-size: 100px
-  
+
 }
 
 .hero h2 {
@@ -522,23 +524,30 @@ section {
   margin-top: 30px;
   line-height: 0;
   padding: 15px 40px;
-  border-radius: 4px;
+  border-radius: 30px;
   transition: 0.5s;
-  color: #212121;
-  background: #CCFD56;
+  color: #CCFD56;
+  background: #212121;
+  border: 2px solid #CCFD56;
 }
 
-.hero .btn-get-started span {
+.hero.btn-get-started {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: #212121;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
-  font-size: 16px;
-  letter-spacing: 1px;
+  transition: 0.3s;
+  border: 2px solid #CCFD56;
 }
 
-.hero .btn-get-started i {
-  margin-left: 5px;
-  font-size: 18px;
-  transition: 0.3s;
+.hero .btn-get-started:hover {
+  background: #CCFD56;
+  color: #7C57FC;
 }
 
 .hero .btn-get-started:hover i {
@@ -814,6 +823,9 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
+.features{
+  background-color: #f2f2f3;
+}
 .features h1 {
   font-family: "pf-fuel-grime", sans-serif;
   font-weight: 400;
@@ -1102,7 +1114,7 @@ section {
 # Pricing
 --------------------------------------------------------------*/
 .pricing{
-  background-color: #4b359b;
+  background-color: #7C57FC;
   
 }
 
@@ -1114,7 +1126,7 @@ section {
 }
 .pricing .box {
   padding: 40px 20px;
-  background: #7C57FC;
+  background: #452d9b;
   text-align: center;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   border-radius: 4px;
@@ -1130,10 +1142,13 @@ section {
 }
 
 .pricing h3 {
-  font-weight: 700;
-  font-size: 18px;
-  margin-bottom: 15px;
+  font-family: "pf-fuel-grime", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color:#CCFD56;
 }
+
 
 .pricing .price {
   font-size: 36px;
@@ -1188,7 +1203,7 @@ section {
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   transition: 0.3s;
-  border: 1px solid #CCFD56;
+  border: 2px solid #CCFD56;
 }
 
 .pricing .btn-buy:hover {
@@ -1212,30 +1227,47 @@ section {
 /*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
+.faq .accordion-{
+  color: #f2f2f3;
+}
+.faq .accordion-body{
+  color: #212121;
+}
 .faq .accordion-collapse {
   border: 0;
 }
 
 .faq .accordion-button {
+  background-color: #f2f2f3;
   padding: 15px 15px 20px 0;
   font-weight: 600;
   border: 0;
   font-size: 18px;
-  color: #444444;
+  color: #212121;
   text-align: left;
 }
 
 .faq .accordion-button:focus {
   box-shadow: none;
+  background-color: #f2f2f3;
 }
 
 .faq .accordion-button:not(.collapsed) {
-  background: none;
-  color: #4154f1;
+  background-color: #f2f2f3;
+  color: #7C57FC;
   border-bottom: 0;
 }
 
+.faq .accordion-button-collapsed{
+  background-color: #f2f2f3;
+  color: #f2f2f3;
+  border-bottom: 0;
+
+}
+
+
 .faq .accordion-body {
+  background-color: #f2f2f3;
   padding: 0 0 25px 0;
   border: 0;
 }
@@ -1248,7 +1280,6 @@ section {
   margin: 0 auto 25px auto;
   list-style: none;
   text-align: center;
-  background: white;
   border-radius: 50px;
   padding: 2px 15px;
 }
@@ -1260,17 +1291,16 @@ section {
   font-size: 15px;
   font-weight: 600;
   line-height: 1;
-  color: #444444;
+  color: #212121;
   margin: 0 4px 8px 4px;
   transition: 0.3s;
   border-radius: 50px;
-  border: 1px solid #fff;
-}
+  }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #4154f1;
-  border-color: #4154f1;
+  color: #7C57FC;
+  border-color: #CCFD56;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1282,12 +1312,12 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(255, 255, 255, 0.75);
+  background: #CCFD56;
 }
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.75);
+  opacity: 30%; background: #CCFD56;
   position: absolute;
   left: 30px;
   right: 30px;
@@ -1347,9 +1377,11 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
-  font-size: 20px;
-  color: #012970;
-  font-weight: 700;
+  font-family: "pf-fuel-grime", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color: #7C57FC
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
@@ -1482,12 +1514,13 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+
 .testimonials .testimonial-item {
   box-sizing: content-box;
   padding: 30px;
   margin: 40px 30px;
   box-shadow: 0px 0 20px rgba(1, 41, 112, 0.1);
-  background: #fff;
+  background: #7C57FC;
   min-height: 320px;
   display: flex;
   flex-direction: column;
@@ -1507,7 +1540,7 @@ section {
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50%;
-  border: 4px solid #fff;
+  border: 4px solid #7C57FC;
   margin: 0 auto;
 }
 
@@ -1520,7 +1553,7 @@ section {
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #999;
+  color: #f2f2f3;
   margin: 0;
 }
 
@@ -1537,9 +1570,9 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #f2f2f3;
   opacity: 1;
-  border: 1px solid #4154f1;
+  border: 1px solid #7C57FC;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
@@ -1667,7 +1700,7 @@ section {
 }
 
 .team .member .member-info p {
-  font-style: italic;
+  font-style: normal;
   font-size: 14px;
   padding-top: 15px;
   line-height: 26px;
@@ -1783,9 +1816,24 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
+.contact .php-email-form{
+background: #7C57FC;
+}
+
+.contact{
+  background-color: #212121;
+}
+
+.contact h1{
+font-family: "pf-fuel-grime", sans-serif;
+font-weight: 400;
+font-style: normal;
+ color: #f2f2f3;
+}
 .contact .info-box {
-  color: #444444;
-  background: #fafbff;
+  color: #212121;
+  background: #7C57FC;
   padding: 30px;
 }
 
@@ -1878,16 +1926,38 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #4154f1;
-  border: 0;
+  background: ;
+  border: 2px; color: #CCFD56;
   padding: 10px 30px;
-  color: #fff;
+  color: #CCFD56;
   transition: 0.4s;
-  border-radius: 4px;
+  border-radius: 30px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #5969f3;
+  background: #CCFD56;
+  color: #212121;
+}
+
+
+.contact .php-email-form button[type=submit]{
+  background-color: #7C57FC;
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: #CCFD56;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 2px solid #CCFD56;
+}
+
+.contact-php-email-form button[type=submit]:hover {
+  background: #CCFD56;
+  color: #7C57FC;
 }
 
 @keyframes animate-loading {
@@ -1899,7 +1969,9 @@ section {
     transform: rotate(360deg);
   }
 }
-
+.form-php-email-form{
+  background-color: #7C57FC;
+}
 /*--------------------------------------------------------------
 # Blog
 --------------------------------------------------------------*/
