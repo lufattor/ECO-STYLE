@@ -764,7 +764,7 @@ section {
 }
 
 /* Consulta de medios para pantallas de 768px o menos */
-@media (max-width: px) {
+@media (max-width: 1080px) {
   .hero {
     background: url(../img/hero-bg2-mobile.png) top center no-repeat; /* Cambia a la imagen móvil como fondo */
       padding: 10px; /* Ajusta el espaciado según tus necesidades en dispositivos móviles */
