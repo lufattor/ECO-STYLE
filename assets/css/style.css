@@ -670,9 +670,25 @@ section {
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
-.cta .section {
-  background: url("../img/cta-bg.png") center;
+
+
+.cta{
+  width: 100%;
+  height: 35vh;
+  background: url(../img/cta-bg.png) top center no-repeat;
   background-size: cover;
+}
+
+#cta2 {
+  background: image();
+  background-size: cover;
+  height: auto;
+}
+
+.cta .section {
+  background: url("file:///C:/Users/lufat/Downloads/cta-bg.png") center;
+  background-size: cover;
+  height: auto;
   padding: 80px 0;
 }
 
@@ -682,7 +698,18 @@ section {
   font-family: "pf-fuel-grime", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 60px;
+  font-size: 80px;
+  padding-top: 20px;
+  align:center;
+  color: #f2f2f3;
+}
+
+
+.cta2 h1 {  
+  font-family: "pf-fuel-grime", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
   padding-top: 20px;
   align:center;
   color: #f2f2f3;
@@ -692,8 +719,19 @@ section {
   font-family: "pf-fuel-grime", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 60px;
-  padding-top: 20px;
+  font-size: 80px;
+  padding-top: 60px;
+  align:center;
+  color: #f2f2f3;
+}
+
+
+.cta P {  
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding-top: 0px;
   align:center;
   color: #f2f2f3;
 }
@@ -724,16 +762,17 @@ section {
   .values h2 {
     font-family: "pf-fuel-grime", sans-serif;
     font-weight: 400;
-    font-size: 80px
+    font-size: 60px;
     font-style: normal;
-    color: #f2f2f3
+    color: #f2f2f3;
+    padding-bottom: 0px;
     
     }
   
     .values h1 {
       font-family: "pf-fuel-grime", sans-serif;
       font-weight: 400;
-      font-size: 80px;
+      font-size: 60px;
       font-style: normal;
       color: #f2f2f3;
       
@@ -814,6 +853,9 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
+
+
+
 .features{
   background-color: #f2f2f3;
 }
